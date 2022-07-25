@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  nowy folder (3):
+    image: nowy folder (3)
+    build: .
+    ports:
+      - 3000:3000

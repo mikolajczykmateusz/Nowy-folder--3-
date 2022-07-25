@@ -23,12 +23,6 @@ int main(int argc, char *argv[]) {
   float p=4.*k/n;
   cout<<"pi = "<<setprecision(5)<<p<<endl;
   
-  fstream plik;
-  plik.open("dane.txt", ios::out);
-  plik<<n<<endl;
-  plik<<p<<endl;
-  plik.close();
-  
   char c;
   cin>>c;
 }
